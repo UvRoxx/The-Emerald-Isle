@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10A21C9C25AD37DB007977DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A21C9B25AD37DB007977DB /* AppDelegate.swift */; };
+		10A21C9E25AD37DB007977DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A21C9D25AD37DB007977DB /* SceneDelegate.swift */; };
+		10A21CA025AD37DB007977DB /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A21C9F25AD37DB007977DB /* WelcomeVC.swift */; };
+		10A21CA325AD37DB007977DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A21CA125AD37DB007977DB /* Main.storyboard */; };
+		10A21CA625AD37DB007977DB /* The_Emerald_Isle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10A21CA425AD37DB007977DB /* The_Emerald_Isle.xcdatamodeld */; };
+		10A21CA825AD37DC007977DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A21CA725AD37DC007977DB /* Assets.xcassets */; };
+		10A21CAB25AD37DC007977DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A21CA925AD37DC007977DB /* LaunchScreen.storyboard */; };
+		10A21CB725AD3E33007977DB /* DancingScript-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10A21CB625AD3E33007977DB /* DancingScript-VariableFont_wght.ttf */; };
+		10A21CBC25AD4A66007977DB /* gifLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A21CBB25AD4A66007977DB /* gifLoad.swift */; };
+		10A21CC025AD4AC5007977DB /* loadScreen-gif-.gif in Resources */ = {isa = PBXBuildFile; fileRef = 10A21CBF25AD4AC5007977DB /* loadScreen-gif-.gif */; };
+		10A21CC325AD4BF6007977DB /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A21CC225AD4BF6007977DB /* LaunchScreenVC.swift */; };
+		10A21CC625AD54B1007977DB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A21CC525AD54B1007977DB /* LoginVC.swift */; };
+		10A21CC925AD54D0007977DB /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A21CC825AD54D0007977DB /* SignInVC.swift */; };
+		10A21CE125AD5EBC007977DB /* backSmoke.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A21CE025AD5EBC007977DB /* backSmoke.mp4 */; };
+		10A21CE525AD62A5007977DB /* whiteSmoke.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10A21CE425AD62A5007977DB /* whiteSmoke.mp4 */; };
+		10A21CEA25AD6A82007977DB /* FilesAndSegueNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A21CE925AD6A81007977DB /* FilesAndSegueNames.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10A21C9825AD37DB007977DB /* The Emerald Isle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Emerald Isle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A21C9B25AD37DB007977DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10A21C9D25AD37DB007977DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		10A21C9F25AD37DB007977DB /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		10A21CA225AD37DB007977DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10A21CA525AD37DB007977DB /* The_Emerald_Isle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = The_Emerald_Isle.xcdatamodel; sourceTree = "<group>"; };
+		10A21CA725AD37DC007977DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10A21CAA25AD37DC007977DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10A21CAC25AD37DC007977DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10A21CB625AD3E33007977DB /* DancingScript-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		10A21CBB25AD4A66007977DB /* gifLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifLoad.swift; sourceTree = "<group>"; };
+		10A21CBF25AD4AC5007977DB /* loadScreen-gif-.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "loadScreen-gif-.gif"; sourceTree = "<group>"; };
+		10A21CC225AD4BF6007977DB /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
+		10A21CC525AD54B1007977DB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		10A21CC825AD54D0007977DB /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		10A21CE025AD5EBC007977DB /* backSmoke.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = backSmoke.mp4; sourceTree = "<group>"; };
+		10A21CE425AD62A5007977DB /* whiteSmoke.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = whiteSmoke.mp4; sourceTree = "<group>"; };
+		10A21CE925AD6A81007977DB /* FilesAndSegueNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesAndSegueNames.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10A21C9525AD37DB007977DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10A21C8F25AD37DB007977DB = {
+			isa = PBXGroup;
+			children = (
+				10A21CE825AD6A6A007977DB /* Utilities */,
+				10A21C9A25AD37DB007977DB /* The Emerald Isle */,
+				10A21C9925AD37DB007977DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10A21C9925AD37DB007977DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10A21C9825AD37DB007977DB /* The Emerald Isle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10A21C9A25AD37DB007977DB /* The Emerald Isle */ = {
+			isa = PBXGroup;
+			children = (
+				10A21CBF25AD4AC5007977DB /* loadScreen-gif-.gif */,
+				10A21CE025AD5EBC007977DB /* backSmoke.mp4 */,
+				10A21CE425AD62A5007977DB /* whiteSmoke.mp4 */,
+				10A21C9B25AD37DB007977DB /* AppDelegate.swift */,
+				10A21C9D25AD37DB007977DB /* SceneDelegate.swift */,
+				10A21CBA25AD4A4C007977DB /* Model */,
+				10A21CB425AD3D3B007977DB /* Controller */,
+				10A21CB325AD3D31007977DB /* View */,
+				10A21CA725AD37DC007977DB /* Assets.xcassets */,
+				10A21CB625AD3E33007977DB /* DancingScript-VariableFont_wght.ttf */,
+				10A21CA925AD37DC007977DB /* LaunchScreen.storyboard */,
+				10A21CAC25AD37DC007977DB /* Info.plist */,
+				10A21CA425AD37DB007977DB /* The_Emerald_Isle.xcdatamodeld */,
+			);
+			path = "The Emerald Isle";
+			sourceTree = "<group>";
+		};
+		10A21CB325AD3D31007977DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10A21CA125AD37DB007977DB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		10A21CB425AD3D3B007977DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10A21C9F25AD37DB007977DB /* WelcomeVC.swift */,
+				10A21CC225AD4BF6007977DB /* LaunchScreenVC.swift */,
+				10A21CC525AD54B1007977DB /* LoginVC.swift */,
+				10A21CC825AD54D0007977DB /* SignInVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		10A21CBA25AD4A4C007977DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				10A21CBB25AD4A66007977DB /* gifLoad.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10A21CE825AD6A6A007977DB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				10A21CE925AD6A81007977DB /* FilesAndSegueNames.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10A21C9725AD37DB007977DB /* The Emerald Isle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A21CAF25AD37DC007977DB /* Build configuration list for PBXNativeTarget "The Emerald Isle" */;
+			buildPhases = (
+				10A21C9425AD37DB007977DB /* Sources */,
+				10A21C9525AD37DB007977DB /* Frameworks */,
+				10A21C9625AD37DB007977DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Emerald Isle";
+			productName = "The Emerald Isle";
+			productReference = 10A21C9825AD37DB007977DB /* The Emerald Isle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10A21C9025AD37DB007977DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					10A21C9725AD37DB007977DB = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 10A21C9325AD37DB007977DB /* Build configuration list for PBXProject "The Emerald Isle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10A21C8F25AD37DB007977DB;
+			productRefGroup = 10A21C9925AD37DB007977DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10A21C9725AD37DB007977DB /* The Emerald Isle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10A21C9625AD37DB007977DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A21CAB25AD37DC007977DB /* LaunchScreen.storyboard in Resources */,
+				10A21CC025AD4AC5007977DB /* loadScreen-gif-.gif in Resources */,
+				10A21CE125AD5EBC007977DB /* backSmoke.mp4 in Resources */,
+				10A21CE525AD62A5007977DB /* whiteSmoke.mp4 in Resources */,
+				10A21CA825AD37DC007977DB /* Assets.xcassets in Resources */,
+				10A21CA325AD37DB007977DB /* Main.storyboard in Resources */,
+				10A21CB725AD3E33007977DB /* DancingScript-VariableFont_wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10A21C9425AD37DB007977DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A21CBC25AD4A66007977DB /* gifLoad.swift in Sources */,
+				10A21CA025AD37DB007977DB /* WelcomeVC.swift in Sources */,
+				10A21CC925AD54D0007977DB /* SignInVC.swift in Sources */,
+				10A21CC625AD54B1007977DB /* LoginVC.swift in Sources */,
+				10A21C9C25AD37DB007977DB /* AppDelegate.swift in Sources */,
+				10A21CEA25AD6A82007977DB /* FilesAndSegueNames.swift in Sources */,
+				10A21C9E25AD37DB007977DB /* SceneDelegate.swift in Sources */,
+				10A21CA625AD37DB007977DB /* The_Emerald_Isle.xcdatamodeld in Sources */,
+				10A21CC325AD4BF6007977DB /* LaunchScreenVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10A21CA125AD37DB007977DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10A21CA225AD37DB007977DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10A21CA925AD37DC007977DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10A21CAA25AD37DC007977DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10A21CAD25AD37DC007977DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10A21CAE25AD37DC007977DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10A21CB025AD37DC007977DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GLADUN7NL;
+				INFOPLIST_FILE = "The Emerald Isle/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uvarma.The-Emerald-Isle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10A21CB125AD37DC007977DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GLADUN7NL;
+				INFOPLIST_FILE = "The Emerald Isle/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uvarma.The-Emerald-Isle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10A21C9325AD37DB007977DB /* Build configuration list for PBXProject "The Emerald Isle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A21CAD25AD37DC007977DB /* Debug */,
+				10A21CAE25AD37DC007977DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10A21CAF25AD37DC007977DB /* Build configuration list for PBXNativeTarget "The Emerald Isle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A21CB025AD37DC007977DB /* Debug */,
+				10A21CB125AD37DC007977DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		10A21CA425AD37DB007977DB /* The_Emerald_Isle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				10A21CA525AD37DB007977DB /* The_Emerald_Isle.xcdatamodel */,
+			);
+			currentVersion = 10A21CA525AD37DB007977DB /* The_Emerald_Isle.xcdatamodel */;
+			path = The_Emerald_Isle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 10A21C9025AD37DB007977DB /* Project object */;
+}
