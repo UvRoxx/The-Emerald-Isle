@@ -8,9 +8,9 @@
 import UIKit
 import AVKit
 class WelcomeVC: UIViewController {
-
     
-  
+    
+    
     
     var videoPlayer:AVPlayer?
     var videoPlayerLayer:AVPlayerLayer?
@@ -18,23 +18,23 @@ class WelcomeVC: UIViewController {
     
     @IBOutlet var buttonDesign: [UIButton]!
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         for button in buttonDesign{
-        button.layer.cornerRadius = 25
-        button.layer.borderWidth = 0.5
+            button.layer.cornerRadius = 25
+            button.layer.borderWidth = 0.5
             button.layer.borderColor = UIColor.secondarySystemBackground.cgColor
-    }
+        }
         setUpVideo()
     }
-   
+    
     
     //MARK:-View Lifecycle ovverides
     override func viewWillAppear(_ animated: Bool) {
         navigationController?.setNavigationBarHidden(true, animated: true)
         //Setting up video in the background
-
+        
     }
     override func viewWillDisappear(_ animated: Bool) {
         navigationController?.setNavigationBarHidden(false, animated: true)
@@ -42,22 +42,22 @@ class WelcomeVC: UIViewController {
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
         guard UIApplication.shared.applicationState == .inactive else {
-                   return
-               }
-print("called")
+            return
+        }
+        print("called")
         reloadViewFromNib()
         
     }
-
-//MARK:-Function to setup the backgorund video
+    
+    //MARK:-Function to setup the backgorund video
     func setUpVideo(){
         
-            var backgroundName = ""
+        var backgroundName = ""
         if self.traitCollection.userInterfaceStyle == .dark {
-backgroundName = "backSmoke"
+            backgroundName = "backSmoke"
             
         } else {
-backgroundName = "whiteSmoke"
+            backgroundName = "whiteSmoke"
         }
         
         let bundlePath = Bundle.main.path(forResource: backgroundName, ofType: "mp4")
@@ -83,16 +83,16 @@ backgroundName = "whiteSmoke"
         
         videoPlayer?.playImmediately(atRate: 0.2)
     }
-
-
+    
+    
     //MARK:-Function to reload the view to get the new backgorund loaded 
     func reloadViewFromNib() {
         let parent = view.superview
         view.removeFromSuperview()
         view = nil
         parent?.addSubview(view) // This line causes the view to be reloaded
-}
-
-
-
+    }
+    
+    
+    
 }
